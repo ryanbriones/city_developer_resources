@@ -428,7 +428,7 @@ var bootstrapData = function(Methods, methodGroupCollection, methodsDict) {
         custom: true,
         id: "page",
         type: "optional",
-        description: "For calls that logically include more records than the page size, the page parameter can be use to page through the results. Use in combination with page_size and with multiple calls to download all data in a logical set of records.",
+        description: "For calls that logically include more records than the page size, the page parameter can be use to page through the results. Use in combination with page_size and with multiple calls to download all data in a logical set of records. The values for page should start at 1. That is, 1=first page, 2=second page, etc",
         example: "1"
       }),
       new Methods.Parameter({
